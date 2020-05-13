@@ -1,14 +1,39 @@
 {
-  "name": "new-app",
-  "displayName": "new-app",
+  "name": "Number Guessing Duo",
+  "displayName": "Number Guessing Duo",
   "expo": {
-    "name": "new-app",
-    "slug": "new-app",
+    "name": "Number Guessing Duo",
+    "slug": "number-guessing-duo",
+    "description": "A number guessing game duo you play against your phone. You decide on the winning number, you both take turns until your phone guesses the number.",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/spiral.png",
+    "splash": {
+      "image":"./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.x10host.sarahshelley",
+      "buildNumber": "1.0.0",
+      "icon": "./assets/spiral.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      }
+    },
+    "android": {
+      "package": "com.x10host.sarahshelley",
+      "versionCode": 1
+    },
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "assetBundlePatterns": [
       "**/*"
