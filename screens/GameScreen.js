@@ -73,10 +73,10 @@ const GameScreen = props => {
             <NumberContainer>{currentGuess}</NumberContainer>
             <Card style={styles.buttonContainer}>
                 <MainButton onPress={nextGuessHandler.bind(this, 'lower')} >
-                <Ionicons name="md-remove" size={24} color="white" />
+                LOWER
                 </MainButton>
                 <MainButton onPress={nextGuessHandler.bind(this, 'higher')}>
-                <Ionicons name="md-add" size={24} color="white"  />
+                HIGHER
                 </MainButton>
             </Card>
             <View style={styles.listContainer}>
